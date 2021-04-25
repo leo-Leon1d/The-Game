@@ -13,6 +13,8 @@
 		BF650BA72632FF7600D73401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF650BA52632FF7600D73401 /* Main.storyboard */; };
 		BF650BA92632FF7700D73401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF650BA82632FF7700D73401 /* Assets.xcassets */; };
 		BF650BAC2632FF7700D73401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF650BAA2632FF7700D73401 /* LaunchScreen.storyboard */; };
+		BF650BBB2633008C00D73401 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF650BBA2633008C00D73401 /* Concentration.swift */; };
+		BF650BBE263302F300D73401 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF650BBD263302F300D73401 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BF650BA82632FF7700D73401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF650BAB2632FF7700D73401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF650BAD2632FF7700D73401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF650BBA2633008C00D73401 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		BF650BBD263302F300D73401 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		BF650B9E2632FF7600D73401 /* TheGame */ = {
 			isa = PBXGroup;
 			children = (
-				BF650B9F2632FF7600D73401 /* AppDelegate.swift */,
-				BF650BA12632FF7600D73401 /* SceneDelegate.swift */,
+				BF650BB42632FFE800D73401 /* Supporting File */,
 				BF650BA32632FF7600D73401 /* ViewController.swift */,
 				BF650BA52632FF7600D73401 /* Main.storyboard */,
 				BF650BA82632FF7700D73401 /* Assets.xcassets */,
-				BF650BAA2632FF7700D73401 /* LaunchScreen.storyboard */,
 				BF650BAD2632FF7700D73401 /* Info.plist */,
+				BF650BBA2633008C00D73401 /* Concentration.swift */,
+				BF650BBD263302F300D73401 /* Card.swift */,
 			);
 			path = TheGame;
+			sourceTree = "<group>";
+		};
+		BF650BB42632FFE800D73401 /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				BF650B9F2632FF7600D73401 /* AppDelegate.swift */,
+				BF650BA12632FF7600D73401 /* SceneDelegate.swift */,
+				BF650BAA2632FF7700D73401 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF650BA42632FF7600D73401 /* ViewController.swift in Sources */,
+				BF650BBB2633008C00D73401 /* Concentration.swift in Sources */,
+				BF650BBE263302F300D73401 /* Card.swift in Sources */,
 				BF650BA02632FF7600D73401 /* AppDelegate.swift in Sources */,
 				BF650BA22632FF7600D73401 /* SceneDelegate.swift in Sources */,
 			);
