@@ -10,11 +10,12 @@ import Foundation
 struct Card {
     
     var isFaceUp = false
-    var isMatced = false
+    var isMatched = false
     var id: Int
     
     static var idFactory = 0
     
+    //function for getting every card it's unique id:
     static func getUniqueId() -> Int {
         idFactory += 1
         return idFactory

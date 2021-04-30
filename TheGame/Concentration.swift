@@ -13,8 +13,16 @@ class Concentration {
     
     var cards = [Card]()
     
+    
+    //function for cards to flip:
     func chooseCard (at index: Int) {
+        if cards[index].isFaceUp {
+        cards[index].isFaceUp = false
+        }
         
+        else {
+            cards[index].isFaceUp = true
+        }
     }
     
     init(numberOfPairs: Int) {
